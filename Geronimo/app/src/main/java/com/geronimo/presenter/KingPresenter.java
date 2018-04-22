@@ -3,10 +3,7 @@ package com.geronimo.presenter;
 import android.app.Activity;
 import android.content.Context;
 
-import com.geronimo.Geronimo;
 import com.geronimo.model.King;
-
-import java.util.List;
 
 /**
  * Created by Babacar Cisse on 22/04/2018.

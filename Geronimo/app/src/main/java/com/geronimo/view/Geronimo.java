@@ -1,4 +1,4 @@
-package com.geronimo;
+package com.geronimo.view;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -9,6 +9,8 @@ import android.view.MenuItem;
 import android.widget.Toast;
 
 
+import com.geronimo.GeronimoApp;
+import com.geronimo.R;
 import com.geronimo.model.King;
 import com.geronimo.presenter.KingPresenterImpl;
 import com.geronimo.view.adapter.KingAdapter;

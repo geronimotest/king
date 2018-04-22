@@ -8,10 +8,10 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
-import com.geronimo.Geronimo;
+import com.bumptech.glide.request.RequestOptions;
+import com.geronimo.view.Geronimo;
 import com.geronimo.model.King;
 import com.geronimo.R;
 import com.geronimo.presenter.KingPresenterImpl;
@@ -63,9 +63,9 @@ public class KingAdapter extends
         description.setText(kingItem.getDescription());
         ImageView image = holder.image;
         if (kingItem.getPictureUrl() != null && kingItem.getPictureUrl() != null) {
-            Glide.with(context).load(kingItem.getPictureUrl()).into(image);
+            Glide.with(context).load(kingItem.getPictureUrl()).apply(new RequestOptions()
+                    .placeholder(R.drawable.placeholder)).into(image);
         }
-
 
     }
 

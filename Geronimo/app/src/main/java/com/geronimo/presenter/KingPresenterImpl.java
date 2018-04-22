@@ -5,12 +5,11 @@ import android.content.Context;
 import android.content.Intent;
 import android.widget.Toast;
 
-import com.geronimo.Geronimo;
+import com.geronimo.view.Geronimo;
 import com.geronimo.GeronimoApp;
 import com.geronimo.R;
 import com.geronimo.model.King;
 import com.geronimo.model.KingItemsRetriever;
-import com.geronimo.model.KingItemsRetrieverImpl;
 
 import java.util.List;
 

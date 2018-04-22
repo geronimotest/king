@@ -1,8 +1,7 @@
 package com.geronimo.injection;
 
-import com.geronimo.Geronimo;
+import com.geronimo.view.Geronimo;
 import com.geronimo.presenter.KingPresenter;
-import com.geronimo.presenter.KingPresenterImpl;
 
 import javax.inject.Singleton;
 
